@@ -1,0 +1,26 @@
+{
+  "name": "scenario-generator",
+  "version": "0.1.0",
+  "description": "An NPM module to generate protractor scenarios from html code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhdev/scenario-generator.git"
+  },
+  "keywords": [
+    "protractor",
+    "generator",
+    "scenarios",
+    "e2e",
+    "testing"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/scenario-generator/issues"
+  },
+  "homepage": "https://github.com/suhdev/scenario-generator#readme"
+}

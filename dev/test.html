@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body ng-app="TestModule" gn-suite="test1" gn-scenario="scenario1" gn-url="url_goes_here">
+		<div ng-controller="TestCtrl as ctrl">
+			<div ng-bind="ctrl.value" gn-expect=""></div>
+			<div ng-click="ctrl.add()" id="testBtn" gn-click=""></div>
+		</div>
+	</body>
+</html>
